@@ -1,3 +1,4 @@
+import React from "react";
 import "./About.css";
 import htmlFondo from "../../Images/htmlFondo.png";
 /* import { motion } from "framer-motion"; */
@@ -9,7 +10,7 @@ function About() {
 
   return (
     <div className="containerr">
-      {/*  <motion.div
+      {/* <motion.div
       className="containerr"
       initial={{ opacity: 0, transition: { duration: 0.5 } }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
