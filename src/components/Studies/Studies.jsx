@@ -16,7 +16,7 @@ import react from "../../Images/carrusel/React.png";
 import redux from "../../Images/carrusel/Redux.png";
 import sequelize from "../../Images/carrusel/Sequelize.png";
 import ts from "../../Images/carrusel/TS.png";
-import { motion } from "framer-motion";
+/* import { motion } from "framer-motion"; */
 import { useTranslation } from "react-i18next";
 
 function Studies() {
