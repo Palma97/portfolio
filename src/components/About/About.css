@@ -1,12 +1,12 @@
-.containerr {
+/* .containerr {
   display: flex;
   width: 100%;
   height: 100vh;
   align-items: center;
   justify-content: space-evenly;
-}
+} */
 
-.smallContainer {
+/* .smallContainer {
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -15,16 +15,16 @@
   text-align: center;
   height: 100vh;
   width: 40%;
-}
+} */
 
 .title {
-  display: flex;
+  /* display: flex;
   color: #5a84a2;
   padding-left: 35%;
   font-size: 3rem;
   font-weight: bold;
   justify-content: left;
-  border-bottom: solid 3px #5a84a2;
+  border-bottom: solid 3px #5a84a2; */
   transform: perspective(1px) translateZ(0);
 }
 
@@ -63,19 +63,19 @@
   }
 }
 
-.textAbout {
+/* .textAbout {
   padding-left: 35%;
   font-size: 1.2em;
   padding-bottom: 10%;
   font-weight: bold;
   text-align: right;
-}
+} */
 
 .htmlFondo {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 60%; */
   animation: float 6s ease-in-out infinite;
 }
 
@@ -91,21 +91,21 @@
   }
 }
 
-.imgHtml {
+/* .imgHtml {
   width: 60%;
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
   border: none;
   border-radius: 10%;
-}
+} */
 
 .curriculumButton {
-  text-decoration: none;
+  /* text-decoration: none;
   text-align: left;
   display: flex;
   color: #5a84a2;
   font-size: 1.8rem;
   font-weight: bold;
   padding-right: 32%;
-  border-top: solid 3px #5a84a2;
+  border-top: solid 3px #5a84a2; */
   transform: perspective(1px) translateZ(0);
 }

@@ -1,17 +1,17 @@
-.container10 {
+/* .container10 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100vh;
-}
+} */
 
-.containerd2 {
+/* .containerd2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+} */
 
 .slider {
   overflow: hidden;
@@ -50,13 +50,17 @@
   }
 }
 
-.cards {
+/* .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 2%;
   padding-top: 5%;
   border: solid 2px black;
   border-radius: 5%;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .card {
   position: relative;
@@ -65,12 +69,12 @@
   height: 50vh;
 }
 
-.ome {
+/* .ome {
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: space-evenly;
-}
+} */
 
 .card .face {
   position: absolute;
@@ -99,10 +103,10 @@
   cursor: pointer;
 }
 
-.henryStudies {
-  width: 300px;
-  height: 200px;
-}
+/* .henryStudies {
+  width: 95%;
+  height: 70%;
+} */
 
 .back {
   display: flex;
@@ -113,30 +117,31 @@
   padding: 0;
 }
 
-p {
+/* p {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 0;
-}
+} */
 
-.h1 {
+/* .h1 {
   background-color: rgba(0, 0, 0, 0.2);
   color: #5a84a2;
   width: 100%;
   font-weight: bold;
-}
+  font-size: 1.5rem;
+} */
 
-.pBack {
+/* .pBack {
   padding-left: 20px;
   padding-right: 20px;
   color: rgba(0, 0, 0, 0.7);
-}
+} */
 
-.h1Back {
+/* .h1Back {
   width: 100%;
   color: #5a84a2;
-  background-color: rgba(0, 0, 0, 0.2);
-}
+  background-color: rgba(0, 0, 0, 0.203);
+} */
 
 .h1Back::after {
   content: "";

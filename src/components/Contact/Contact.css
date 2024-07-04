@@ -1,36 +1,36 @@
-.containerContact {
+/* .containerContact {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-}
+} */
 
-.computerForm {
+/* .computerForm {
   margin-top: 0;
-  width: 600px;
-  height: 450px;
+  width: 70%;
+  height: 60%;
   object-fit: cover;
-}
+} */
 
-.textForm {
+/* .textForm {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
-  height: 100vh;
-}
+  height: 90vh;
+} */
 
-.textForm1 {
+/* .textForm1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
   font-size: 1.3em;
-}
+} */
 
-.textForm2 {
+/* .textForm2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,10 +38,10 @@
   height: 100%;
   position: relative;
   overflow: hidden;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
+  border-radius: 3%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+} */
 
 .textForm2 .escribeme {
   width: 0;
@@ -68,15 +68,10 @@
 }
 
 .h1Form {
-  display: inline-block;
-  color: #5a84a2;
   transform: perspective(1px) translateZ(0);
 }
 
 .h1Form2 {
-  display: inline-block;
-  color: #5a84a2;
-  font-size: 3.5em;
   transform: perspective(1px) translateZ(0);
 }
 
@@ -115,52 +110,54 @@
   }
 }
 
-.pForm {
+/* .pForm {
   width: 80%;
   text-align: justify;
-}
+} */
 
-.form {
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: left;
   width: 50%;
-}
+} */
 
-.inputs {
+/* .inputs {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
-.input {
-  width: 400px;
-  height: 50px;
+/* .input {
+  width: 55%;
+  height: 17%;
+  padding-left: 3%;
   margin-bottom: 20px;
-  border: solid 3px black;
+  border-radius: 8px;
+  border: solid 2px black;
 }
 
 .input:hover {
   border: solid 3px #5a84a2;
   transition: ease-in-out 0.3s;
-}
+} */
 
-.social {
+/* .social {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 50px;
   width: 50%;
-}
+} */
 
 .icons {
-  color: #5a84a2;
+  /* color: #5a84a2;
   border-radius: 50%;
   padding: 10px;
+  transition: 1s ease; */
   box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.35);
-  transition: 1s ease;
 }
 
 .linkedin:hover {

@@ -14,24 +14,12 @@ export const Home = () => {
 
   const navigate = useNavigate();
 
-  const navigateProjects = () => {
-    navigate("/projects");
-  };
-
-  const navigateStudies = () => {
-    navigate("/studies");
-  };
-
-  const navigateAbout = () => {
-    navigate("/about");
-  };
-
-  const navigateContact = () => {
-    navigate("/contact");
+  const navigateTo = (to) => {
+    navigate(to);
   };
 
   return (
-    <div className="container1">
+    <div className="flex bg-transparent w-[100%] h-[100vh]">
       {/* <motion.div
       className="container1"
       initial={{ opacity: 0, transition: { duration: 0.2 } }}
@@ -41,29 +29,49 @@ export const Home = () => {
       <select
         onChange={(e) => changeLanguage(e.target.value)}
         defaultValue={i18n.language}
-        className="buttonLight"
+        className="fixed w-[100px] h-[40px] m-[35px] border border-black z-10 rounded-[5%] flex text-center font-bold hover:cursor-pointer"
       >
         <option value="es">Español</option>
         <option value="en">English</option>
       </select>
-      <div className="container">
-        <div className="text">{t("TITLEHOME")}</div>
-        <div className="buttons">
-          <button onClick={navigateProjects} className="button">
+      <div className="flex flex-col justify-evenly items-center text-center bg-transparent absolute w-[85%] h-[100vh]">
+        <div className="text text-[#5a84a2] text-[3rem] font-bold w-[0] whitespace-nowrap overflow-hidden">
+          {t("TITLEHOME")}
+        </div>
+        <div className="flex items-center justify-center w-[80%]">
+          <button
+            onClick={() => navigateTo("/projects")}
+            className="ml-[2.5%] mr-[2.5%] w-[100px] h-[100px] text-[0.8rem] rounded-[20px] bg-gradient-to-br from-[#f0f0f0] to-[#cacaca] shadow-[inset_2px_2px_4px_rgba(255,255,255,0.1),2px_2px_8px_rgba(0,0,0,0.15),-2px_-2px_8px_rgba(255,255,255,1),-2px_-2px_8px_rgba(255,255,255,0.5)] border border-white font-bold transition ease-[0.2s] hover:cursor-pointer hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,1),inset_-2px_-2px_8px_rgba(255,255,255,0.5),inset_2px_2px_4px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.15)] hover:scale-[0.98] hover:border-black hover:text-[0.9rem]"
+          >
             {t("BUTTONPROJECTS")}
           </button>
-          <button onClick={navigateStudies} className="button">
+          <button
+            onClick={() => navigateTo("/studies")}
+            className="ml-[2.5%] mr-[2.5%] w-[100px] h-[100px] text-[0.8rem] rounded-[20px] bg-gradient-to-br from-[#f0f0f0] to-[#cacaca] shadow-[inset_2px_2px_4px_rgba(255,255,255,0.1),2px_2px_8px_rgba(0,0,0,0.15),-2px_-2px_8px_rgba(255,255,255,1),-2px_-2px_8px_rgba(255,255,255,0.5)] border border-white font-bold transition ease-[0.2s] hover:cursor-pointer hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,1),inset_-2px_-2px_8px_rgba(255,255,255,0.5),inset_2px_2px_4px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.15)] hover:scale-[0.98] hover:border-black hover:text-[0.9rem]"
+          >
             {t("BUTTONSTUDIES")}
           </button>
-          <button onClick={navigateAbout} className="button">
+          <button
+            onClick={() => navigateTo("/about")}
+            className="ml-[2.5%] mr-[2.5%] w-[100px] h-[100px] text-[0.8rem] rounded-[20px] bg-gradient-to-br from-[#f0f0f0] to-[#cacaca] shadow-[inset_2px_2px_4px_rgba(255,255,255,0.1),2px_2px_8px_rgba(0,0,0,0.15),-2px_-2px_8px_rgba(255,255,255,1),-2px_-2px_8px_rgba(255,255,255,0.5)] border border-white font-bold transition ease-[0.2s] hover:cursor-pointer hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,1),inset_-2px_-2px_8px_rgba(255,255,255,0.5),inset_2px_2px_4px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.15)] hover:scale-[0.98] hover:border-black hover:text-[0.9rem]"
+          >
             {t("BUTTONABOUT")}
           </button>
-          <button onClick={navigateContact} className="button">
+          <button
+            onClick={() => navigateTo("/contact")}
+            className="ml-[2.5%] mr-[2.5%] w-[100px] h-[100px] text-[0.8rem] rounded-[20px] bg-gradient-to-br from-[#f0f0f0] to-[#cacaca] shadow-[inset_2px_2px_4px_rgba(255,255,255,0.1),2px_2px_8px_rgba(0,0,0,0.15),-2px_-2px_8px_rgba(255,255,255,1),-2px_-2px_8px_rgba(255,255,255,0.5)] border border-white font-bold transition ease-[0.2s] hover:cursor-pointer hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,1),inset_-2px_-2px_8px_rgba(255,255,255,0.5),inset_2px_2px_4px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.15)] hover:scale-[0.98] hover:border-black hover:text-[0.9rem]"
+          >
             {t("BUTTONCONTACT")}
           </button>
         </div>
       </div>
-      {<img src={computer} alt="Not found" className="computer" />}
+      {
+        <img
+          src={computer}
+          alt="Not found"
+          className="absolute mt-[10%] w-[600px] z-[-1] right-[17%]"
+        />
+      }
       {/* </motion.div> */}
     </div>
   );
