@@ -79,6 +79,7 @@ function Projects() {
             {t("AXESDEV")}
           </h2>
           <p className="text-[#555] text-[1.2em]">{t("AXESCONTAIN")}</p>
+
           {/* <span>
             <a
               target="_blank"
