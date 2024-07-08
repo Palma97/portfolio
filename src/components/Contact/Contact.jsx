@@ -101,14 +101,14 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-row justify-center items-center w-full h-screen">
+    <div className="flex flex-col md:flex-row  justify-center items-center w-full md:h-screen">
       {/* <motion.div
         className="containerContact"
         initial={{ opacity: 0, transition: { duration: 0.5 } }}
         animate={{ opacity: 1, transition: { duration: 0.5 } }}
         exit={{ opacity: 0, transition: { duration: 0.5 } }}
       > */}
-      <div className="flex flex-col items-center w-1/2 h-90vh">
+      <div className="flex flex-col items-center w-[80%] md:w-1/2 h-90vh">
         {/* <motion.div
           className="textForm"
           initial={{ width: 0, transition: { duration: 0.5 } }}
@@ -153,7 +153,7 @@ function Contact() {
         <form
           ref={form}
           onSubmit={handleSubmit}
-          className="flex items-center justify-center flex-col w-full h-[100%]"
+          className="flex items-center justify-center flex-col w-[80%] md:w-[100%] h-[100%]"
           noValidate
         >
           <input
@@ -218,7 +218,7 @@ function Contact() {
             transition={Flip}
           />
         </form>
-        <div className="flex items-center justify-evenly mt-12 w-1/2">
+        <div className="flex items-center justify-evenly mt-12 mb-12 w-full md:w-1/2">
           <a
             target="_blank"
             rel="noopener noreferrer"

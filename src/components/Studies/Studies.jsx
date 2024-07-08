@@ -23,26 +23,26 @@ function Studies() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen">
+    <div className="flex flex-col items-center justify-center w-full md:h-screen">
       {/* <motion.div
       className="container10"
       initial={{ opacity: 0, transition: { duration: 0.2 } }}
       animate={{ opacity: 1, transition: { duration: 0.2 } }}
       exit={{ opacity: 0, transition: { duration: 0.2 } }}
     > */}
-      <div className="flex w-full h-full justify-evenly">
+      <div className="flex md:flex-row flex-col w-full h-full justify-center items-center md:justify-evenly">
         {/* <motion.div
         className="ome"
         initial={{ width: 0, transition: { duration: 0.2 } }}
         animate={{ width: "100%", transition: { duration: 0.2 } }}
         exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
       > */}
-        <div className="card">
-          <div className="flex flex-col justify-center items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face front">
-            <h1 className="bg-secondary text-[#5a84a2] w-full font-bold text-[1.5rem]">
+        <div className="card w-[70%] md:w-[30%] m-6">
+          <div className="flex flex-col justify-center w-[80%] items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face front">
+            <h1 className="bg-secondary text-[#5a84a2] w-full font-bold text-[1.2rem] lg:text-[1.5rem]">
               {t("TITLEDEVELOPER")}
             </h1>
-            <p className="pl-5 pr-5 text-primary text-[1.2rem] mt-0">
+            <p className="pl-5 pr-5 text-primary text-[1rem] lg:text-[1.2rem] mt-0">
               {t("SMALLCONTAINDEV")}
             </p>
             <img
@@ -51,32 +51,32 @@ function Studies() {
               className="w-[95%] h-[70%]"
             />
           </div>
-          <div className="flex flex-col justify-center items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face back">
-            <h1 className="h1Back bg-secondary text-[#5a84a2] w-full font-bold text-[1.5rem]">
+          <div className="flex flex-col overflow-auto justify-center w-[80%] items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face back">
+            <h1 className="h1Back bg-secondary text-[#5a84a2] w-full font-bold text-[1.2rem] lg:text-[1.5rem]">
               {t("TITLEDEVELOPER")}
             </h1>
-            <p className="pl-5 pr-5 text-primary text-[1.2rem] mt-0">
+            <p className="pl-5 pr-5 text-primary text-[1rem] lg:text-[1.2rem] mt-0">
               {t("BIGCONTAINDEV")}
             </p>
           </div>
         </div>
 
-        <div className="card">
-          <div className="flex flex-col justify-center items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face front">
-            <h1 className="bg-secondary text-[#5a84a2] w-full font-bold text-[1.5rem]">
+        <div className="card w-[70%] md:w-[30%] m-6">
+          <div className="flex flex-col justify-center w-[80%] items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face front">
+            <h1 className="bg-secondary text-[#5a84a2] w-full font-bold text-[1.2rem] lg:text-[1.5rem]">
               {t("TITLEENGLISH")}
             </h1>
-            <p className="pl-5 pr-5 text-primary text-[1.2rem] mt-0">
+            <p className="pl-5 pr-5 text-primary text-[1rem] lg:text-[1.2rem] mt-0">
               {t("SMALLCONTAINENG")}
             </p>
             <img src={ingles} alt="Not found" className="w-[95%] h-[70%]" />
           </div>
 
-          <div className="flex flex-col justify-center items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face back">
-            <h1 className="h1Back bg-secondary text-[#5a84a2] w-full font-bold text-[1.5rem]">
+          <div className="flex flex-col justify-center w-[80%] items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face back">
+            <h1 className="h1Back bg-secondary text-[#5a84a2] w-full font-bold text-[1.2rem] lg:text-[1.5rem]">
               {t("TITLEENGLISH")}
             </h1>
-            <p className="pl-5 pr-5 text-primary text-[1.2rem] mt-0">
+            <p className="pl-5 pr-5 text-primary text-[1rem] lg:text-[1.2rem] mt-0">
               {t("BIGCONTAINENG")}
             </p>
           </div>

@@ -9,14 +9,14 @@ function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-4 m-4 md:ml-2 md:mr-4 items-center justify-center md:justify-evenly leading-[1.5em] md:h-screen w-full transition duration-[0.5s]">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-4 md:ml-2 md:mr-4 items-center justify-center md:justify-evenly leading-[1.5em]  md:h-screen w-full transition duration-[0.5s]">
       {/* <motion.div
       className="container3"
       initial={{ opacity: 0, transition: { duration: 0.3 } }}
       animate={{ opacity: 1, transition: { duration: 0.3 } }}
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
     > */}
-      <div className="item flex flex-col justify-between text-[#eb904b] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
+      <div className="item flex flex-col justify-between text-[#eb904b] ml-[10%] sm:ml-[30%] md:ml-[0%] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
         <div className="layer overflow-auto rounded-[inherit] h-[400px] p-[20px] shadow-[0px_1px_2px_rgba(0,0,0,0.07)_0px_2px_4px_rgba(0,0,0,0.07)_0px_4px_8px_rgba(0,0,0,0.07)_0px_8px_16px_rgba(0,0,0,0.07)_0px_16px_32px_rgba(0,0,0,0.07)_0px_32px_64px] relative left-[10px]">
           <h2 className="h2Projects inline-block text-[#eb904b] mb-[10px] font-bold text-center text-xl">
             {t("INDIVIDUALPROJECT")}
@@ -44,7 +44,7 @@ function Projects() {
           </a>
         </h4>
       </div>
-      <div className="item flex flex-col justify-between text-[#eb904b] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
+      <div className="item flex flex-col justify-between ml-[10%] sm:ml-[30%] md:ml-[0%] text-[#eb904b] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
         <div className="layer overflow-auto rounded-[inherit] h-[400px] p-[20px] shadow-[0px_1px_2px_rgba(0,0,0,0.07)_0px_2px_4px_rgba(0,0,0,0.07)_0px_4px_8px_rgba(0,0,0,0.07)_0px_8px_16px_rgba(0,0,0,0.07)_0px_16px_32px_rgba(0,0,0,0.07)_0px_32px_64px] relative left-[10px]">
           <h2 className="h2Projects inline-block text-[#eb904b] mb-[10px] font-bold text-center text-xl">
             {t("GRUPALPROJECT")}
@@ -73,7 +73,7 @@ function Projects() {
           </a>
         </h4>
       </div>
-      <div className="item flex flex-col justify-between text-[#eb904b] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
+      <div className="item flex flex-col justify-between ml-[10%] sm:ml-[30%] md:ml-[0%] text-[#eb904b] m-4 w-[275px] md:w-[285px] h-[450px] bg-[#5a84a2] rounded-[10px] p-[10px_5px] shadow-[0px_1px_2px_0px_rgba(60,64,67,0.3),0px_1px_3px_1px_rgba(60,64,67,0.2)] relative cursor-crosshair">
         <div className="layer overflow-auto rounded-[inherit] h-[400px] p-[20px] shadow-[0px_1px_2px_rgba(0,0,0,0.07)_0px_2px_4px_rgba(0,0,0,0.07)_0px_4px_8px_rgba(0,0,0,0.07)_0px_8px_16px_rgba(0,0,0,0.07)_0px_16px_32px_rgba(0,0,0,0.07)_0px_32px_64px] relative left-[10px]">
           <h2 className="h2Projects inline-block text-[#eb904b] mb-[10px] font-bold text-center text-xl">
             {t("AXESDEV")}
