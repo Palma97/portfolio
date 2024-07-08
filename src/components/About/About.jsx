@@ -9,7 +9,7 @@ function About() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col md:flex-row w-full md:h-screen items-center justify-evenly">
+    <div className="flex flex-col md:flex-row w-full md:h-screen items-center justify-evenly bg-white">
       {/* <motion.div
       className="containerr"
       initial={{ opacity: 0, transition: { duration: 0.5 } }}

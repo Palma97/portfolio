@@ -23,7 +23,7 @@ function Studies() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col items-center justify-center w-full md:h-screen">
+    <div className="flex flex-col items-center justify-center w-full md:h-screen bg-white">
       {/* <motion.div
       className="container10"
       initial={{ opacity: 0, transition: { duration: 0.2 } }}
@@ -37,7 +37,7 @@ function Studies() {
         animate={{ width: "100%", transition: { duration: 0.2 } }}
         exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
       > */}
-        <div className="card w-[70%] md:w-[30%] m-6">
+        <div className="card w-[0%] md:w-[30%] m-6">
           <div className="flex flex-col justify-center w-[80%] items-center mt-[2%] pt-[5%] border-2 border-black rounded-[5%] shadow-2xl face front">
             <h1 className="bg-secondary text-[#5a84a2] w-full font-bold text-[1.2rem] lg:text-[1.5rem]">
               {t("TITLEDEVELOPER")}

@@ -101,7 +101,7 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col md:flex-row  justify-center items-center w-full md:h-screen">
+    <div className="flex flex-col md:flex-row  justify-center items-center w-full md:h-screen bg-white">
       {/* <motion.div
         className="containerContact"
         initial={{ opacity: 0, transition: { duration: 0.5 } }}

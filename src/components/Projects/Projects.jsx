@@ -9,7 +9,7 @@ function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-4 md:ml-2 md:mr-4 items-center justify-center md:justify-evenly leading-[1.5em]  md:h-screen w-full transition duration-[0.5s]">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-4 md:ml-2 md:mr-4 items-center justify-center md:justify-evenly leading-[1.5em]  md:h-screen w-full transition duration-[0.5s] bg-white">
       {/* <motion.div
       className="container3"
       initial={{ opacity: 0, transition: { duration: 0.3 } }}
