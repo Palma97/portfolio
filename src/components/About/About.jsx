@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import htmlFondo from "../../Images/htmlFondo.png";
 /* import { motion } from "framer-motion"; */
@@ -24,7 +23,8 @@ function About() {
           {t("TEXTABOUT")}
         </div>
         <a
-          href="https://drive.google.com/file/d/1iOqu28J0edTczPpNFKnYE7esMkK2o0j_/view"
+          href="https://drive.google.com/file/d/1VMm3AGh7cJ3Gc0uHt0IKlWlg_XVbcyo0/view?usp=drive_link"
+          // biome-ignore lint/a11y/noBlankTarget: <explanation>
           target="_blank"
           className="curriculumButton text-[none] text-left flex items-center text-[#5a84a2] text-[1.8rem] font-bold pr-[32%] border-t-[3px] border-[#5a84a2]"
         >
